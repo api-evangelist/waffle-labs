@@ -1,7 +1,27 @@
 aid: waffle-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waffle-labs.png
 name: Waffle Labs
-description: Waffle Labs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Waffle Labs, Inc. (Waffle Insurance) is a consumer InsurTech company and
+  licensed digital insurance agency, founded at MIT and accelerated through Barclays
+  Techstars and MIT Delta V. Waffle offers an all-in-one, mobile-first platform that
+  lets consumers get quotes and bind coverage in under 90 seconds across renters,
+  pet, home & auto, term life, personal cyber, and travel insurance in all 50 US
+  states, partnering with vetted carriers rather than underwriting risk itself. The
+  company also runs an embedded-insurance program that lets partners offer Waffle
+  products through a no-code embed. Waffle is a consumer/partner product with no
+  public developer program or API surface at this time; this profile captures its
+  identity and web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/waffle-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Fintech
+- Consumer
+- Embedded Insurance
+- Renters Insurance
+- Pet Insurance
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/waffle-labs-domain-security.yml
 - type: Website
-  url: https://trywaffle.com/
+  url: https://www.waffleinsurance.com/
+- type: About
+  url: https://www.waffleinsurance.com/company/how-waffle-works
+- type: Support
+  url: https://www.waffleinsurance.com/company/contact
+- type: PrivacyPolicy
+  url: https://www.waffleinsurance.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.waffleinsurance.com/legal/terms-of-use
+- type: SignUp
+  url: https://app.waffleinsurance.com/start
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getwaffle
